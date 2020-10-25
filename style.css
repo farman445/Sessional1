@@ -1,13 +1,45 @@
 .nav {
   background-color: rgb(220, 227, 228);
 }
+.im img {
+  background-color: yellow;
+  padding-top: 10px;
+}
+
 .lik a {
   color: black;
   font-family: Arial, Helvetica, sans-serif;
   padding: 10px;
 }
 .social a {
-  padding: 6px;
+  padding-left: 25px;
   font-size: 20px;
   color: black;
+}
+.small img {
+  padding-bottom: 10px;
+}
+.bot {
+  padding-bottom: 25px;
+}
+.bord {
+  margin-top: 20px;
+  border-style: solid;
+  border-color: rgb(64, 32, 93);
+  padding-bottom: 80px;
+  border-radius: 20px;
+  border-top: tomato;
+}
+.inline li {
+  margin: 0 10px;
+  vertical-align: top;
+  display: inline;
+}
+.cir li {
+  list-style-type: square !important;
+}
+.con {
+  background-color: rgb(220, 227, 228);
+  border-top: yellow;
+  border-style: solid;
 }
